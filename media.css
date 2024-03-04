@@ -1,0 +1,164 @@
+@media(max-width:600px){
+    .nav h4{
+        display: none;
+    }
+
+    .nav i{
+        display: block;
+        font-size: 7vw;
+        margin-left: 23vw;
+    }
+
+    .img1{
+        width: 100%;
+        height: 60vw;
+    }
+
+    .logo img{
+        width: 26vw;
+        height: 8vw;
+    }
+
+    .places{
+        display: flex;
+        flex-wrap: wrap;
+        height: 40vw;
+        position: relative;
+
+    }
+
+    .places1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        overflow-block: scroll;
+    }
+
+    .places2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        overflow-block: scroll;
+    }
+    .places3{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        overflow-block: scroll;
+    }
+    
+
+    .last{
+        overflow: scroll;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: end;
+        position: absolute;
+        height: fit-content;
+        overflow: scroll;
+        gap: 5vw;
+        padding: 0;
+        margin-top: 130vw;
+        flex-direction: bottom;
+        display: flexbox;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        overflow: auto;
+    }
+    
+.main2{
+position: absolute;
+flex-wrap: wrap;
+}
+    
+}
+
+/*
+@media(max-width:590px){
+    
+        .nav h4{
+            display: none;
+        }
+    
+        .nav i{
+            display: block;
+            font-size: 7vw;
+            margin-left: 23vw;
+        }
+    
+        .img1{
+            width: 100%;
+            height: 60vw;
+        }
+    
+        .logo img{
+            width: 26vw;
+            height: 8vw;
+        }
+    
+        .places{
+            display: flex;
+            flex-wrap: wrap;
+            height: 40vw;
+            position: relative;
+    
+        }
+    
+        .places1{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            overflow-block: scroll;
+        }
+    
+        .places2{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            overflow-block: scroll;
+        }
+        .places3{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            overflow-block: scroll;
+        }
+        
+    
+        .last{
+            overflow: scroll;
+            width: 100%;
+            flex-wrap: wrap;
+            flex-direction: end;
+            position: absolute;
+            height: fit-content;
+            overflow: scroll;
+            gap: 5vw;
+            padding: 0;
+            margin-top: vw;
+            flex-direction: bottom;
+            display: flexbox;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    
+        .main{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            overflow: auto;
+        }
+        
+    .main2{
+    position: absolute;
+    flex-wrap: wrap;
+    }
+        
+    }
+    
