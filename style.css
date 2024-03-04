@@ -1,315 +1,138 @@
 *{
     margin: 0;
-    font-family: Arial;
-    border: border-box;
+    padding: 0;
 }
 
-.navbar{
-    height: 60px;
-    background-color: #0f1111;
+.img1{
+background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+background-size: cover;
+width: 100%;
+height: 45vw;
+}
+
+.nav{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    font-weight:100;
+    color:white;
+    margin-left: 50vw;
+    font-style: normal;
+    background-color: transparent;
+    padding: 2vw 3vw;
+    text-align: right;
+    vertical-align: middle;
+    font-style:italic;
+}
+
+.nav i{
+    display: none;
+}
+
+.logo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw 6vw;
+    background-size:cover ;
+    margin-left: 29vw;
+    width: 23vw;
+    height: 5vw;
+    margin-top: 8vw;
+}
+
+.content p{
+    font-size: 4vw;
     color: white;
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
+    margin-left: 24vw;
 }
 
-.nav-logo{
-    height: 50px;
-    width: 100px;
-
-}
-
-.logo{
-    background-image: url("WhatsApp\ Image\ 2024-01-11\ at\ 7.52.37\ PM.jpeg");
-    background-size: cover;
-    height: 50px;
+.info{
     width: 100%;
+    height: 40vw;
+}
+
+.info h2{
+    font-size: 5vw;
+    align-items: center;
+    color:black;
+    margin-left: 25vw;
+    font-weight: 100;
+}
+
+.sub{
+    align-items: center;
+    color:gray;
+    margin-left: 15vw;
+    font-weight: 200;
+    font-size: 2vw;
+    padding: 3vw 3vw;
+    
+}
+
+.places{
+    display: flex;
+   justify-content: space-evenly;
 
 }
 
-.border{
-    border: 2px  solid transparent;
-}
-
-.border:hover{
-    border:2px solid white;
-}
-
-.add-fir{
-    font-size:1rem;
-    color: #cccccc;
-    margin-left: 15px;
+button{
+    padding: 1vw 3vw;
+    font-size:20px;
+    font-weight: lighter;
+    border: 3px solid rgb(223, 219, 219) ;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffff;
+    color:rgb(0, 0, 0);
+
 }
 
-.add-icon{
-    height: 5px;
-    width: 5px;
-    margin-right: 15px;
-}
-
-.add-sec{
-    font-size: 1rem;
-    margin-left: 18px ;
+.places1{
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+    flex-direction: column;
+    justify-content: space-between;
    
 }
 
-
-.search-icon{
-    width: 35px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    color: black;
-
-}
-
-.nav-search{
-    margin-left: 15px;
+.places2{
     display: flex;
-    background-color: rgb(236, 144, 68);
-    border-radius: 3px;
-    width: 620px;
-    height: 40px;
-    
+    flex-direction: column;
 }
-.nav-search:hover{
-    border: 2px solid orange;
-}
-.search-sele{
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    text-align: center;
-    color: black;
-    background-color: #f3f3f3;
+.places3{
+    display: flex;
+    flex-direction: column;
 }
 
-.search-input{
+.last{
     width: 100%;
+    height: 15vw;
+    background-color:#e9e9e9ea;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vw;
+    padding: 2vw 3vw;
     font-size: medium;
-
-}
-
-.nav-sign{
-    margin-left: 10px ;
-}
-span{
-    font-size: 0.7rem;
-
-}
-
-.nav-sec{
-    font-size: 0.85rem ;
-    font-weight: 700;
-}
-
-.Return{
- font-size: 0.7rem;
-}
-
-.order{
-    font-size: 0.85rem;
-    font-weight: 300;
-}
-
-.nav-cart i{
-font-size: 30px;
-}
-
-.panel{
-    height: 40px;
-    background-color: #222f3d;
-    display: flex;
-    color: #f3f3f3;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.panel-ops p{
-    display: inline;
-    margin-left: 15px;
-}
-
-.panel-ops{
-width: 70%;
-font-size: 0.85rem;
-}
-
-.panel-deals{
-    font-size: 0.90rem;
-    font-weight: 700;
-}
-.hero{
-    background-image: url("WhatsApp\ Image\ 2024-01-11\ at\ 3.27.48\ PM.jpeg");
-    background-size: cover;
-    height: 600px;
-    display: flex;
-    flex-direction:end;
-
-
-}
-.hero2{
-    background-image: url("WhatsApp\ Image\ 2024-01-11\ at\ 9.33.06\ PM.jpeg");
-    background-size: cover;
-    height:500px ;
-    width: 400px;
-}
-.hero3{
-    background-image: url("WhatsApp\ Image\ 2024-01-11\ at\ 9.43.22\ PM.jpeg");
-    background-size: cover;
-    height:300px ;
-    width: 1000px;
-    
-    align-content:right;
-    
-
-}
-
-
-.sign{
-    background-color:hsl(30, 7%, 6%);
-    display: flex;
-    justify-content:space-evenly;
-    height: 50px;
-    align-items: center;
-    color: #cccccc;
-
-}
-.sign2{
-    align-content: center;
-     color:white;
-    
-}
-
-.box{
-    border: 2px solid black;
-    height: 400px;
-    width: 23%;
-    
-}
-.shop-section{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #f3c190;
-}
-.box1{
-    background-color:#fbf8f4fb;
-}
-.box-img{
-    background-image: url("WhatsApp\ Image\ 2024-01-11\ at\ 3.30.03\ PM.jpeg");
-    background-size: cover;
-    height:300px;
-    width: 230px;
-    margin-left: 27px;
-    margin-top: 50px;
-
-}
-
-.box-img2{
-    background-image: url("WhatsApp\ Image\ 2024-01-11\ at\ 3.30.56\ PM.jpeg");
-    background-size: cover;
-   
-    height:300px;
-    width: 230px;
-    margin-left: 27px;
-    margin-top: 27px;
-}
-.box2{
-    background-color: #f3f3f3;
-}
-
-.box3{
-    background-color: #f3f3f3;
-}
-.box-img3{
-    background-image: url("WhatsApp\ Image\ 2024-01-11\ at\ 3.31.31\ PM.jpeg");
-    background-size: cover;
-   
-    height:300px;
-    width: 230px;
-    margin-left: 27px;
-    margin-top: 50px;
-
-}
-.box4{
-    background-color: #f3f3f3;
-
-}
-.box-img4{
-    background-image: url("WhatsApp\ Image\ 2024-01-11\ at\ 3.34.29\ PM.jpeg");
-    background-size: cover;
-    height:300px;
-    width: 230px;
-    margin-left: 27px;
-    margin-top: 50px;
-
-}
-.footer-panel1{
-    background-color: black;
-    color: rgb(166, 163, 163);
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.footer-panel2{
-    background-color: #222f3d;
-    color: #cccccc;
-    height: 400px;
-    display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap; 
 }
 
 ul a{
-    font-size: large;
-    color: #cccccc;
     display: block;
-    margin-top: 10px;
-    
 }
 
-ul{
-    margin-top: 10px;
-}
-.footer-panel3{
-    height: 55px;
-    background-color: #222f3d;
-    color: #cccccc;
+.main{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid #cccccc;
-}
-.logo{
-    background-image: url("WhatsApp\ Image\ 2024-01-11\ at\ 7.52.37\ PM.jpeg");
-    background-size: cover;
-    height: 50px;
-    width: 100px;
-
+    flex-direction: column;
+    height: 100%;
 }
 
-.footer-panel4{
-    background-color: #222f3d;
-    height: 40px;
-    color: #cccccc;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    border-top: 1px solid #cccccc;
+.main2{
+ display:flex;
+ flex-direction: column;
+ 
 }
- .pages a{
-    color: #cccccc;
-   
- }
- .pages{
-    font-size: 0.7 rem;
- }
